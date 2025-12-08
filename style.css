@@ -1,0 +1,44 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 5rem;
+    background-color: #152237;
+    color: white;
+    font-size: 0.938rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.searchbar {
+    height: 2.5rem;
+    width: 29.8125rem;
+    background-color: #152237;
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-radius: 0.375rem;
+    color: #FFFFFF;
+}
+
+.searchbar::placeholder {
+    color: #FFFFFF;
+}
+
+.logo-nav {
+    width: 5.25rem;
+    height: auto;
+}
+
+
+.nav-bar button {
+    font-family: "Montserrat", sans-serif;
+    height: 2.5rem;
+    width: 8.125rem;
+}
