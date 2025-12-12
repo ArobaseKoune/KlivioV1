@@ -1,6 +1,5 @@
 
-
-body {
+* {
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
@@ -10,8 +9,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: auto;
-    height: 4.5rem;
+    width: 105rem;
+    height: 5rem;
     background-color: #152237;
     color: white;
     font-size: 0.938rem;
@@ -37,6 +36,7 @@ body {
     color: #FFFFFF;
     padding-left: 1.25rem;
     font-family: "Montserrat", sans-serif;
+    font-weight: 500;
 }
 
 .logo-nav {
@@ -52,6 +52,7 @@ body {
     border-radius: 0.375rem;
     margin-right: 1rem;
     font-family: "Montserrat", sans-serif;
+    font-weight: 500;
 }
 
 .recherche {
@@ -69,54 +70,59 @@ body {
 
 .texte-nav {
     margin-left: 3rem;
+    font-size: 0.9375rem;
 }
 
-.inscription {
-    background: linear-gradient(to right,rgba(68, 221, 138, 1), rgba(21, 183, 226, 1));
-}
 
 .logo-nav {
     padding-left: 6.125rem;
 }
 
+.inscription {
+    background: linear-gradient(to right,rgba(68, 221, 138, 1)
+    , rgba(21, 183, 226, 1));
+}
 .boutons {
     padding-right: 6.25rem;
     display: block;
 }
 
+.bontons::placeholder {
+    font-weight: 500;
+    
+}
+
 /* BARRE DE NAVIGATION ^^^ */
 
-.progression {
+.acceuil {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    justify-content: center;
     background-image: linear-gradient(to right,rgba(68, 221, 138, 0.7), rgba(21, 183, 226, 0.7)), url('Asset/img/bg-header.png');
     color: #ffffff;
-    height: 28.125rem;
-    width: 100%;
+    height: 28.1875rem;
+    width: 105rem;
     color: rgba(21, 34, 55, 1);
     background-size: cover;
     text-transform: uppercase;
 }
 
-.progression h1 {
+.acceuil h1 {
     font-size: 3rem;
     font-weight: 800;
+    margin-top: 9.4375rem;
+    margin-bottom: 0;
 }
 
-.progression h2 {
+.acceuil h2 {
+    margin-top: 0.5rem;
     font-size: 1.25rem;
     font-weight: 500;
+    margin-bottom: 1.375rem;
 }
 
-.progression h1,
-.progression h2 {
-    margin: 0.5rem;
-}
-
-.progression button {
+.acceuil button {
     border-color: #FFFFFF;
     border-style: solid;
     border-radius: 0.375rem;
@@ -125,5 +131,990 @@ body {
     border: none;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
+    font-size: 0.9375rem;
+    margin-top: 0;
+}
+
+/* Bandeau principal ^^^^^^^ */
+
+
+.formations-populaires {
+    width: 105rem;
+    height: 39.5rem;
+}
+
+.grille-formation {
+    display: flex;
+    flex-direction: row;
+}
+
+.etoile-transparente {
+    opacity: 0.3;
+}
+/* Infos principales pour les formations ^^^^^^^ */
+
+.titre-formations1 {
+    width: 33rem;
+    height: 4.5rem;
+    margin-left: 6.0625rem;
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 2.25rem;
+    color: #152237;
+    margin-top: 0rem;
+    margin-bottom: 0;
+    padding-top: 1.875rem;
+}
+
+.formation1 {
+    margin-left: 6.25rem;
+}
+
+.carre-vert1 {
+    position: relative;
+    width: 19.0625rem;
+    height: 12.875rem;
+    background-color: #44DD8A;
+    margin-top: 2.125rem;
+    margin-bottom: 1.3125rem;
+
+}
+
+.carre-bleu1 {
+    position: absolute;
+    top: 11.25rem;
+    left: 10.3125rem;
+    z-index: 1;
+}
+
+.boxprix1 {
+    position: absolute;
+    top: 11.9688rem;
+    left: 11.4375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+    flex-direction: row;
+    display: flex;
+    z-index: 2;
+    text-align: center;
+}
+
+.prix-reduc1 {
+    color: white;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.prix-avant1 {
+    font-weight: 400;
+    font-size: 0.625rem;
+    color: white;
+}
+
+.mini-info1 {
+    margin-left: 0.875rem;
+}
+
+.mini-info-titre1 {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.mini-info-titre1,
+.nom-prenom1 {
+    margin: 0;
+}
+
+.nom-prenom1 {
+    margin-top: 0.6875rem;
+    font-size: 1rem;
+}
+
+.etoile1 img {
+    margin-top: 0.3125rem;
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.description-1 {
+    margin-top: 0.625rem;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+/* */
+
+.formation2 {
+    margin-left: 5.625rem;
+}
+
+.carre-vert2 {
+    position: relative;
+    width: 19.0625rem;
+    height: 12.875rem;
+    background-color: #44DD8A;
+    margin-top: 2.125rem;
+    margin-bottom: 1.3125rem;
+
+}
+
+.carre-bleu2 {
+    position: absolute;
+    top: 11.25rem;
+    left: 10.3125rem;
+    z-index: 1;
+}
+
+.prix-reduc2 {
+    color: white;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.prix-avant2 {
+    font-weight: 400;
+    font-size: 0.625rem;
+    color: white;
+}
+
+.boxprix2 {
+    position: absolute;
+    top: 11.9688rem;
+    left: 11.4375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+    flex-direction: row;
+    z-index: 2;
+    text-align: center;
+}
+
+.mini-info2 {
+    margin-left: 0.875rem;
+}
+
+.mini-info-titre2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.mini-info-titre2,
+.nom-prenom2 {
+    margin: 0;
+}
+
+.nom-prenom2 {
+    margin-top: 0.6875rem;
+    font-size: 1rem;
+}
+
+.etoile2 img {
+    margin-top: 0.3125rem;
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.description-2 {
+    margin-top: 0.625rem;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+/* */
+
+.formation3 {
+    margin-left: 4.75rem;
+}
+
+.carre-vert3 {
+    position: relative;
+    width: 19.0625rem;
+    height: 12.875rem;
+    background-color: #44DD8A;
+    margin-top: 2.125rem;
+    margin-bottom: 1.3125rem;
+
+}
+
+.carre-bleu3 {
+    position: absolute;
+    top: 11.25rem;
+    left: 10.3125rem;
+    z-index: 1;
+}
+
+.prix-reduc3 {
+    color: white;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.prix-avant3 {
+    font-weight: 400;
+    font-size: 0.625rem;
+    color: white;
+}
+
+.boxprix3 {
+    position: absolute;
+    top: 11.9688rem;
+    left: 11.4375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+    flex-direction: row;
+    z-index: 2;
+    text-align: center;
+}
+
+.mini-info3 {
+    margin-left: 0.875rem;
+}
+
+.mini-info-titre3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.mini-info-titre3,
+.nom-prenom3 {
+    margin: 0;
+}
+
+.nom-prenom3 {
+    margin-top: 0.6875rem;
+    font-size: 1rem;
+}
+
+.description-3 {
+    margin-top: 0.625rem;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+/* */
+
+.formation4 {
+    margin-left: 5.6875rem;
+    margin-right: 6.3125rem;
+}
+
+.carre-vert4 {
+    position: relative;
+    width: 19.0625rem;
+    height: 12.875rem;
+    background-color: #44DD8A;
+    margin-top: 2.125rem;
+    margin-bottom: 1.3125rem;
+
+}
+
+.carre-bleu4 {
+    position: absolute;
+    top: 11.25rem;
+    left: 10.3125rem;
+    z-index: 1;
+}
+
+.prix-reduc4 {
+    color: white;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.prix-avant4 {
+    font-weight: 400;
+    font-size: 0.625rem;
+    color: white;
+}
+
+.boxprix4 {
+    position: absolute;
+    top: 11.9688rem;
+    left: 11.4375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+    flex-direction: row;
+    display: flex;
+    z-index: 2;
+    text-align: center;
+}
+
+.mini-info4 {
+    margin-left: 0.875rem;
+}
+
+.mini-info-titre4 {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.mini-info-titre4,
+.nom-prenom4 {
+    margin: 0;
+}
+
+.nom-prenom4 {
+    margin-top: 0.6875rem;
+    font-size: 1rem;
+}
+
+.description-4 {
+    margin-top: 0.625rem;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+/* */
+
+.voir-plus-formation {
+    background-color: #152237;
+    border-style: solid;
+    color: white;
+    border-radius: 0.375rem;
+    height: 2.5rem;
+    width: 14.0625rem;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 0.9375rem;
+    margin-top: 3.375rem;
+    margin: 2rem auto 0;
+    display: block; 
+}
+
+/* */
+
+.voir-plus-formation2 {
+    background-color: white;
+    border-style: solid;
+    color: black;
+    border-radius: 0.375rem;
+    height: 2.5rem;
+    width: 14.0625rem;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 0.9375rem;
+    margin-top: 3.375rem;
+    margin: 2rem auto 0;
+    display: block; 
+}
+
+.formations-recentes {
+    width: 105rem;
+    height: 39.5rem;
+    background-color: #152237;
+
+}
+
+.formations-recentes .voir-plus-formation2 {
+    color: black;
+}
+
+.formations-recentes * {
+  color: white;
+}
+
+.formations-recentes .prix-reduc1,
+.formations-recentes .prix-reduc2,
+.formations-recentes .prix-reduc3,
+.formations-recentes .prix-reduc4 {
+  color: black;
+}
+
+.formations-recentes .prix-avant1 s,
+.formations-recentes .prix-avant2 s,
+.formations-recentes .prix-avant3 s,
+.formations-recentes .prix-avant4 s {
+  color: black;
+}
+
+.formations-recentes .mini-info-titre3 {
+    width: 18.94rem;
+}
+
+.titre-formations2 {
+    width: 33rem;
+    height: 4.5rem;
+    margin-left: 6.0625rem;
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 2.25rem;
+    color: white;
+    margin-top: 0rem;
+    margin-bottom: 0;
+    padding-top: 1.875rem;
+}
+
+.formations-recentes .formation4 {
+    margin-left: 5.125rem;
+}
+
+/* */
+
+.avis-clients {
+    width: 105rem;
+    height: 37.3125rem;
+}
+
+.avis-container {
+    
+    display:flex;
+    flex-direction: row;
+}
+
+.titre-client {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: rgba(21, 34, 55, 1);
+    background-size: cover;
+    text-transform: uppercase;
+    padding-top: 3.625rem;
+    font-weight: 900;
+}
+
+.avis1 {
+    padding-top: 3.5rem;
+    padding-left: 9.375rem;
+    width: 43.0625rem;
+    height: 19.125rem;
+}
+
+.avis2 {
+    padding-top: 3.5rem;
+    padding-left: 1.5rem;
+    width: 43.0625rem;
+    height: 19.125rem;
+}
+
+.image-client {
+    border-radius: 50%;
+}
+
+.avis-clients h2 {
+    margin-left: .1875rem;
+    width: 42.875rem;
+    height: 2.25rem;
+    display: flex;
+    align-items: center;
+}
+
+.avis-clients .etoile1 {
+    margin-top: .4375rem;
+    margin-left: .125rem;
+}
+
+.avis-clients p {
+    margin-left: .1875rem;
+    width: 42.875rem;
+    height: 5.625rem;
+    margin-top: .8625rem;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 1.875rem;
+    letter-spacing: -0.015em;
+}
+
+
+/* */
+
+.description {
+    background-color: #F5F5F5;
+    width: 105rem;
+    height: 40.0625rem;
+}
+
+.description h1 {
+    color: rgba(21, 34, 55, 1);
+    font-size: 2.5rem;
+    width: 42.875rem;
+    height: 2.9375rem;
+    text-transform: uppercase;
+    padding-top: 4.9375rem;
+    margin-left: 6.125rem;
+    font-weight: 900;
+}
+
+.container-description {
+    display:flex;
+    flex-direction: row;
+}
+
+.icones {
+    display: flex;
+    flex-direction: column;
+    gap: .9375rem;
+    height: 1.875rem;
+    width: 1.875rem;
+    margin-top: 2.6875rem;
+    margin-left: 6.125rem;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.6875rem;
+    width: 38.5rem;
+    height: 18.4375rem;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.5%;
+    gap: .9375rem;
+    letter-spacing: -0.015em;
+    margin-left: 2.1875rem;
+}
+
+.img-contexte {
+    width: 45.4375rem;
+    height: 29.5rem;
+    margin-left: 4.4375rem;
+    margin-top: -2.9375rem;
+}
+
+/* */
+
+.description2 {
+    background-color: #44DD8A;
+    width: 105rem;
+    height: 40.0625rem;
+}
+
+.description2 h1 {
+    color: rgba(21, 34, 55, 1);
+    font-size: 2.5rem;
+    width: 42.875rem;
+    height: 5.8125rem;
+    text-transform: uppercase;
+    padding-top: 4.9375rem;
+    margin-left: 57rem;
+    font-weight: 900;
+}
+
+.img-contexte2 {
+    margin-left: 6.3125rem;
+    margin-top: -5.8125rem;
+}
+
+.col2 {
+    display: flex;
+    flex-direction: column;
+    width: 38.5rem;
+    height: 18.4375rem;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.5%;
+    gap: 1.14rem;
+    letter-spacing: -0.015em;
+    margin-left: 2.1875rem;
+}
+
+.icones2 {
+    display: flex;
+    flex-direction: column;
+    height: 1.875rem;
+    width: 1.875rem;
+}
+
+.container-description2 {
+    display:flex;
+    flex-direction: row;
+}
+
+.icones2 {
+    margin-top: 2.5938rem;
+    margin-left: 4.875rem;
+}
+
+.col2 {
+    margin-top: 2.5938rem;
+}
+
+.icon1 {
+    margin-bottom: .9375rem;
+}
+
+.icon2 {
+    margin-bottom: 1.1875rem;
+}
+
+.icon3 {
+    margin-bottom: .9375rem;
+}
+
+.icon4 {
+    margin-bottom: 8.0625rem;
+}
+
+.about {
+    background-color: #F5F5F5;
+    width: 105rem;
+    height: 46.25rem;
+    display: flex;
+}
+
+.about-container {
+    height: 46.25rem;
+    width: 53.125rem;
+}
+
+.about-container h1 {
+    width: 42.875rem;
+    height: 2.25rem;
+    padding-top: 11.5rem;
+    padding-left: 6.4375rem;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.about-container p {
+    width: 42.875rem;
+    height: 18.4375rem;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-top: 2.5625rem;
+    margin-left: 6.4375rem;
+    letter-spacing: -0.015em;
+}
+
+.img-side {
+    background-color: #152237;
+    width: 51.875rem;
+    height: 46.25rem;
+}
+
+.img-side img {
+    width: 26.875rem;
+    height: 9.6875rem;
+    margin-top: 18.25rem;
+    margin-left: 12.5rem;
+}
+
+.contact {
+    width: 105rem;
+    height: 41.4375rem;
+}
+
+.ligne {
+    width: 21.875rem;
+    height: 0rem;
+    border: .0625rem solid #44DD8A;
+    margin-top: 2.4375rem;
+    margin-left: 41.5625rem;
+}
+
+.contact h1 {
+    width: auto;
+    height: 2.25rem;
+    color: rgba(21, 34, 55, 1);
+    font-weight: 900;
+    font-style: Black;
+    font-size: 40px;
+    line-height: 36px;
+    letter-spacing: -1.5%;
+    text-transform: uppercase;
+    padding-top: 3.75rem;
+    margin-left: 40.25rem;
+}
+
+.nom {
+    width: 37.4375rem;
+    height: 2.8283rem;
+    border: none;
+    background-color: #152237;
+    margin-left: 10.75rem;
+}
+
+.nom::placeholder {
+    color: white;
+    width: 37.691rem;
+    height: 1.6988rem;
+    padding-left: 1.125rem;
+    font-size: .9375rem;
+}
+
+.email::placeholder {
+    color: white;
+    width: 16.893rem;
+    height: 1.6988rem;
+    padding-left: 1.0606rem;
+    font-size: .9375rem;
+}
+
+.email {
+    width: 37.4221rem;
+    height: 2.8313rem;
+    border: none;
+    background-color: #152237;
+}
+
+.formulaire {
+    display: flex;
+    gap: 8.625rem;
+    margin-top: 3.4375rem;
+}
+
+.message {
+    resize: none;
+    width: 83.4949rem;
+    height: 12.1649rem;
+    margin-left: 10.75rem;
+    border: none;
+    background-color: #152237;
+    margin-top: 3.4844rem;
+}
+
+.message-container {
+    display: flex;
+}
+
+.message::placeholder {
+    color: white;
+    font-size: .9375rem;
+    width: 37.691rem;
+    height: 7.299rem;
+    padding-left: 1.0469rem;
+    padding-top: .965rem;
+}
+
+.contact button {
+    border: none;
+    border-radius: .375rem;
+    background-color: #44DD8A;
+    width: 21.9723rem;
+    height: 2.8313rem;
+    margin-left: 41.5269rem;
+    margin-top: 3.415rem;
+}
+
+.contact button::placeholder {
+    width: 16.5638rem;
+    height: 1.2741rem;
+    font-weight: 500;
+}
+
+footer {
+    width: 105rem;
+    height: 30.5625rem;
+    background-color: #152237;
+}
+
+footer .bar {
+    width: 105rem;
+    height: 1.125rem;
+    background: linear-gradient(to right,rgba(68, 221, 138, 1), rgba(21, 183, 226, 1));
+}
+
+.logo-footer {
+    width: 15.1875rem;
+    height: 5.4375rem;
+    margin-top: 5.6875rem;
+    margin-left: 6rem;
+}
+
+.top {
+    display: flex;
+}
+
+.legal {
+    color: white;
+    margin-left: 18rem;
+    margin-top: 6.375rem;
+}
+
+.legal h1 {
+    width: 10.8125rem;
+    height: 1.5rem;
+    font-size: .9375rem;
+    font-weight: 700;
+    align-items: center;
+    display: flex;
+}
+
+.legal-info {
+    width: 10.8125rem;
+    height: 5.9375rem;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: -1.5%;
     margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    line-height: 1.5rem;
+}
+
+.coord h1 {
+    align-items: center;
+    display: flex;
+    width: 10.8125rem;
+    height: 1.5rem;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -1.5%;
+}
+
+.coord {
+    margin-left: 4.0625rem;
+    margin-top: 6.375rem;
+    width: 12rem;
+    height: 9rem;
+}
+
+.coord img {
+    display: flex;
+    flex-direction: column;
+}
+
+#epingle {
+    margin-top: 1rem;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+#telephone {
+    margin-top: 1.4375rem;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+#email {
+    margin-top: .5625rem;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.coord-info {
+    color: white;
+    font-weight: 400;
+    font-size: .9375rem;
+    line-height: 1.5rem;
+    letter-spacing: -1.5%;
+    width: 12.5rem;
+    height: 5.9375rem;
+    margin-top: 1rem;
+    margin-left: 1.1875rem;
+}
+
+.container-coord {
+    display: flex;
+}
+
+#numero {
+    margin-bottom: .375rem;
+}
+.btn-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-footer button {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: .9375rem;
+    letter-spacing: -1.5%;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 24.4375rem;
+}
+
+.footer-connexion { 
+    margin-top: 6.375rem;
+    margin-bottom: .75rem;
+}
+
+.btn-footer button {
+    border: none;
+    width: 8.125rem;
+    height: 2.5rem;
+    border-radius: .375rem;
+}
+
+.footer-inscription {
+    background: linear-gradient(95.98deg, #44DD8A 8.7%, #15B7E2 100%);
+}
+
+.trait {
+    width: 92.625rem;
+    height: 0rem;
+    border: .0625rem solid #44DD8A;
+    margin-top: 2rem;
+    margin-left: 6rem;
+}
+
+.bottom {
+    display: flex;
+}
+
+#copyright {
+    color: white;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: .9375rem;
+    line-height: 1.5rem;
+    letter-spacing: -1.5%;
+    width: 18.8125rem;
+    height: 1.5rem;
+    margin-top: 1.5625rem;
+    margin-left: 6rem;
+}
+
+.reseaux-sociaux {
+    width: 18.5625rem;
+height: 1.875rem;
+display: flex;
+align-items: center;
+margin-left: 55.25rem;
+margin-top: 2.375rem;
+}
+
+
+.reseaux-sociaux p {
+    color: white;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: .9375rem;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    text-align: right;
+    width: 6rem;
+    height: 1.5rem;
+}
+
+.reseaux-sociaux img {
+    width: 1.875rem;
+    height: 1.875rem;
+}
+
+#facebook {
+    margin-left: 1.5rem;
+}
+
+#x {
+    margin-left: 1.3125rem;
+}
+
+#instagram {
+    margin-left: 1.3125rem;
+}
+
+#likedin {
+    margin-left: .9375rem;
 }
