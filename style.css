@@ -1,4 +1,7 @@
 
+
+@media screen and (min-width: 394px) {
+
 * {
     margin: 0;
     padding: 0;
@@ -14,6 +17,10 @@
     background-color: #152237;
     color: white;
     font-size: 0.938rem;
+}
+
+.menu-burger {
+    display: none;
 }
 
 .searchbar {
@@ -44,7 +51,6 @@
     height: auto;
 }
 
-
 .nav-bar button {
     height: 2.5rem;
     width: 8.125rem;
@@ -73,7 +79,6 @@
     font-size: 0.9375rem;
 }
 
-
 .logo-nav {
     padding-left: 6.125rem;
 }
@@ -82,6 +87,7 @@
     background: linear-gradient(to right,rgba(68, 221, 138, 1)
     , rgba(21, 183, 226, 1));
 }
+
 .boutons {
     padding-right: 6.25rem;
     display: block;
@@ -89,7 +95,6 @@
 
 .bontons::placeholder {
     font-weight: 500;
-    
 }
 
 /* BARRE DE NAVIGATION ^^^ */
@@ -99,7 +104,7 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
-    background-image: linear-gradient(to right,rgba(68, 221, 138, 0.7), rgba(21, 183, 226, 0.7)), url('Asset/img/bg-header.png');
+    background-image: linear-gradient(to right,rgba(68, 221, 138, 0.9), rgba(21, 183, 226, 0.7)), url('Asset/img/bg-header.png');
     color: #ffffff;
     height: 28.1875rem;
     width: 105rem;
@@ -137,7 +142,6 @@
 
 /* Bandeau principal ^^^^^^^ */
 
-
 .formations-populaires {
     width: 105rem;
     height: 39.5rem;
@@ -146,6 +150,8 @@
 .grille-formation {
     display: flex;
     flex-direction: row;
+    gap: 5.625rem;
+    justify-content: center;
 }
 
 .etoile-transparente {
@@ -167,312 +173,111 @@
     padding-top: 1.875rem;
 }
 
-.formation1 {
-    margin-left: 6.25rem;
+.formation {
+    justify-content: center;
+    color: #152237;
 }
 
-.carre-vert1 {
+.bloc-prix {
     position: relative;
     width: 19.0625rem;
     height: 12.875rem;
     background-color: #44DD8A;
     margin-top: 2.125rem;
     margin-bottom: 1.3125rem;
-
 }
 
-.carre-bleu1 {
-    position: absolute;
-    top: 11.25rem;
-    left: 10.3125rem;
-    z-index: 1;
-}
-
-.boxprix1 {
-    position: absolute;
-    top: 11.9688rem;
-    left: 11.4375rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.25rem;
-    flex-direction: row;
-    display: flex;
-    z-index: 2;
-    text-align: center;
-}
-
-.prix-reduc1 {
+.price-tag {
+    width: 7.5rem;
+    height: 1.9737rem;
+    border-radius: 0.5rem;
+    background: #152237;
     color: white;
     font-weight: 700;
-    font-size: 1.25rem;
+    border: none;
+    width: 120;
+    border-radius: 93px;
+    box-shadow: 5px 4px 13.2px -1px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: -0.015em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .4375rem;
+    position: absolute;
+    left: 10.875rem;
+    margin-top: 11.875rem;
+    padding-left: .1875rem;
+    padding-top: .0625rem;
 }
 
-.prix-avant1 {
+.old-price {
     font-weight: 400;
-    font-size: 0.625rem;
-    color: white;
+    font-size: 10px;
+    line-height: 7px;
+    letter-spacing: -0.015em;
+    text-decoration: line-through;
+    width: 1.4375rem;
+    height: .4375rem;
+    white-space: nowrap;
 }
 
-.mini-info1 {
+.bloc-prix2 {
+    position: relative;
+    width: 19.0625rem;
+    height: 12.875rem;
+    background-color: #44DD8A;
+    margin-top: 2.125rem;
+    margin-bottom: 1.3125rem;
+}
+
+.bloc-prix2 .price-tag  {
+    background-color: white;
+    color: black;
+}
+
+.bloc-prix2
+ .old-price {
+    color: black;
+}
+
+.mini-info {
     margin-left: 0.875rem;
 }
 
-.mini-info-titre1 {
+.mini-info-titre {
     font-weight: 700;
     font-size: 1.5rem;
 }
 
-.mini-info-titre1,
-.nom-prenom1 {
+.mini-info-titre,
+.nom-prenom {
     margin: 0;
 }
 
-.nom-prenom1 {
+.nom-prenom {
     margin-top: 0.6875rem;
     font-size: 1rem;
 }
 
-.etoile1 img {
-    margin-top: 0.3125rem;
+.etoile-formation {
+    width: 9.375rem;
+    height: 1.2rem;
+    margin-top: .3125rem;
+}
+
+.etoile-formation img {
     width: 1.25rem;
     height: 1.25rem;
 }
 
-.description-1 {
+.description-formation {
     margin-top: 0.625rem;
     font-size: 1rem;
     margin-bottom: 0;
 }
 
-/* */
-
-.formation2 {
-    margin-left: 5.625rem;
-}
-
-.carre-vert2 {
-    position: relative;
-    width: 19.0625rem;
-    height: 12.875rem;
-    background-color: #44DD8A;
-    margin-top: 2.125rem;
-    margin-bottom: 1.3125rem;
-
-}
-
-.carre-bleu2 {
-    position: absolute;
-    top: 11.25rem;
-    left: 10.3125rem;
-    z-index: 1;
-}
-
-.prix-reduc2 {
-    color: white;
-    font-weight: 700;
-    font-size: 1.25rem;
-}
-
-.prix-avant2 {
-    font-weight: 400;
-    font-size: 0.625rem;
-    color: white;
-}
-
-.boxprix2 {
-    position: absolute;
-    top: 11.9688rem;
-    left: 11.4375rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.25rem;
-    flex-direction: row;
-    z-index: 2;
-    text-align: center;
-}
-
-.mini-info2 {
-    margin-left: 0.875rem;
-}
-
-.mini-info-titre2 {
-    font-weight: 700;
-    font-size: 1.5rem;
-}
-
-.mini-info-titre2,
-.nom-prenom2 {
-    margin: 0;
-}
-
-.nom-prenom2 {
-    margin-top: 0.6875rem;
-    font-size: 1rem;
-}
-
-.etoile2 img {
-    margin-top: 0.3125rem;
-    width: 1.25rem;
-    height: 1.25rem;
-}
-
-.description-2 {
-    margin-top: 0.625rem;
-    font-size: 1rem;
-    margin-bottom: 0;
-}
-
-/* */
-
-.formation3 {
-    margin-left: 4.75rem;
-}
-
-.carre-vert3 {
-    position: relative;
-    width: 19.0625rem;
-    height: 12.875rem;
-    background-color: #44DD8A;
-    margin-top: 2.125rem;
-    margin-bottom: 1.3125rem;
-
-}
-
-.carre-bleu3 {
-    position: absolute;
-    top: 11.25rem;
-    left: 10.3125rem;
-    z-index: 1;
-}
-
-.prix-reduc3 {
-    color: white;
-    font-weight: 700;
-    font-size: 1.25rem;
-}
-
-.prix-avant3 {
-    font-weight: 400;
-    font-size: 0.625rem;
-    color: white;
-}
-
-.boxprix3 {
-    position: absolute;
-    top: 11.9688rem;
-    left: 11.4375rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.25rem;
-    flex-direction: row;
-    z-index: 2;
-    text-align: center;
-}
-
-.mini-info3 {
-    margin-left: 0.875rem;
-}
-
-.mini-info-titre3 {
-    font-weight: 700;
-    font-size: 1.5rem;
-}
-
-.mini-info-titre3,
-.nom-prenom3 {
-    margin: 0;
-}
-
-.nom-prenom3 {
-    margin-top: 0.6875rem;
-    font-size: 1rem;
-}
-
-.description-3 {
-    margin-top: 0.625rem;
-    font-size: 1rem;
-    margin-bottom: 0;
-}
-
-/* */
-
-.formation4 {
-    margin-left: 5.6875rem;
-    margin-right: 6.3125rem;
-}
-
-.carre-vert4 {
-    position: relative;
-    width: 19.0625rem;
-    height: 12.875rem;
-    background-color: #44DD8A;
-    margin-top: 2.125rem;
-    margin-bottom: 1.3125rem;
-
-}
-
-.carre-bleu4 {
-    position: absolute;
-    top: 11.25rem;
-    left: 10.3125rem;
-    z-index: 1;
-}
-
-.prix-reduc4 {
-    color: white;
-    font-weight: 700;
-    font-size: 1.25rem;
-}
-
-.prix-avant4 {
-    font-weight: 400;
-    font-size: 0.625rem;
-    color: white;
-}
-
-.boxprix4 {
-    position: absolute;
-    top: 11.9688rem;
-    left: 11.4375rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.25rem;
-    flex-direction: row;
-    display: flex;
-    z-index: 2;
-    text-align: center;
-}
-
-.mini-info4 {
-    margin-left: 0.875rem;
-}
-
-.mini-info-titre4 {
-    font-weight: 700;
-    font-size: 1.5rem;
-}
-
-.mini-info-titre4,
-.nom-prenom4 {
-    margin: 0;
-}
-
-.nom-prenom4 {
-    margin-top: 0.6875rem;
-    font-size: 1rem;
-}
-
-.description-4 {
-    margin-top: 0.625rem;
-    font-size: 1rem;
-    margin-bottom: 0;
-}
-
-/* */
 
 .voir-plus-formation {
     background-color: #152237;
@@ -512,33 +317,14 @@
     width: 105rem;
     height: 39.5rem;
     background-color: #152237;
-
 }
 
 .formations-recentes .voir-plus-formation2 {
-    color: black;
+    color: #152237;
 }
 
 .formations-recentes * {
   color: white;
-}
-
-.formations-recentes .prix-reduc1,
-.formations-recentes .prix-reduc2,
-.formations-recentes .prix-reduc3,
-.formations-recentes .prix-reduc4 {
-  color: black;
-}
-
-.formations-recentes .prix-avant1 s,
-.formations-recentes .prix-avant2 s,
-.formations-recentes .prix-avant3 s,
-.formations-recentes .prix-avant4 s {
-  color: black;
-}
-
-.formations-recentes .mini-info-titre3 {
-    width: 18.94rem;
 }
 
 .titre-formations2 {
@@ -560,6 +346,18 @@
 }
 
 /* */
+.etoile-avis {
+    width: 9.375rem;
+    height: 1.2rem;
+    margin-top: .4375rem;
+}
+
+.etoile-avis img {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+
 
 .avis-clients {
     width: 105rem;
@@ -567,9 +365,10 @@
 }
 
 .avis-container {
-    
+    justify-content: center;
     display:flex;
     flex-direction: row;
+    gap: 1.5rem;
 }
 
 .titre-client {
@@ -582,18 +381,12 @@
     text-transform: uppercase;
     padding-top: 3.625rem;
     font-weight: 900;
+    font-size: 2.5rem;
 }
 
-.avis1 {
+.avis {
     padding-top: 3.5rem;
-    padding-left: 9.375rem;
-    width: 43.0625rem;
-    height: 19.125rem;
-}
-
-.avis2 {
-    padding-top: 3.5rem;
-    padding-left: 1.5rem;
+    justify-content: center;
     width: 43.0625rem;
     height: 19.125rem;
 }
@@ -602,7 +395,7 @@
     border-radius: 50%;
 }
 
-.avis-clients h2 {
+.avis-clients h3 {
     margin-left: .1875rem;
     width: 42.875rem;
     height: 2.25rem;
@@ -610,8 +403,7 @@
     align-items: center;
 }
 
-.avis-clients .etoile1 {
-    margin-top: .4375rem;
+.avis-clients .etoile-formation {
     margin-left: .125rem;
 }
 
@@ -622,11 +414,10 @@
     margin-top: .8625rem;
     font-weight: 400;
     font-size: 1rem;
-    text-align: justify;
+    text-align: left;
     line-height: 1.875rem;
     letter-spacing: -0.015em;
 }
-
 
 /* */
 
@@ -636,7 +427,7 @@
     height: 40.0625rem;
 }
 
-.description h1 {
+.description h2 {
     color: rgba(21, 34, 55, 1);
     font-size: 2.5rem;
     width: 42.875rem;
@@ -671,13 +462,29 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    letter-spacing: -1.5%;
+    letter-spacing: -0.015em;
     gap: .9375rem;
     letter-spacing: -0.015em;
     margin-left: 2.1875rem;
 }
 
-.img-contexte {
+#téléchargement-mobile {
+    display: none;
+}
+
+#échange-mobile {
+    display: none;
+}
+
+#Suivi-mobile {
+    display: none;
+}
+
+.img-contexte-mobile {
+    display: none;
+}
+
+.img-contexte-pc {
     width: 45.4375rem;
     height: 29.5rem;
     margin-left: 4.4375rem;
@@ -692,10 +499,14 @@
     height: 40.0625rem;
 }
 
-.description2 h1 {
+#titre-creation-mobile {
+        display: none;
+}
+
+.description2 h2 {
     color: rgba(21, 34, 55, 1);
     font-size: 2.5rem;
-    width: 42.875rem;
+    width: 600px;
     height: 5.8125rem;
     text-transform: uppercase;
     padding-top: 4.9375rem;
@@ -703,9 +514,13 @@
     font-weight: 900;
 }
 
-.img-contexte2 {
+.img-contexte2-pc {
     margin-left: 6.3125rem;
     margin-top: -5.8125rem;
+}
+
+.img-contexte2-mobile {
+    display: none;
 }
 
 .col2 {
@@ -716,7 +531,6 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    letter-spacing: -1.5%;
     gap: 1.14rem;
     letter-spacing: -0.015em;
     margin-left: 2.1875rem;
@@ -771,7 +585,7 @@
     width: 53.125rem;
 }
 
-.about-container h1 {
+.about-container h2 {
     width: 42.875rem;
     height: 2.25rem;
     padding-top: 11.5rem;
@@ -817,7 +631,7 @@
     margin-left: 41.5625rem;
 }
 
-.contact h1 {
+.contact h2 {
     width: auto;
     height: 2.25rem;
     color: rgba(21, 34, 55, 1);
@@ -825,7 +639,7 @@
     font-style: Black;
     font-size: 40px;
     line-height: 36px;
-    letter-spacing: -1.5%;
+    letter-spacing: -0.015em;
     text-transform: uppercase;
     padding-top: 3.75rem;
     margin-left: 40.25rem;
@@ -936,7 +750,7 @@ footer .bar {
     margin-top: 6.375rem;
 }
 
-.legal h1 {
+.legal h2 {
     width: 10.8125rem;
     height: 1.5rem;
     font-size: .9375rem;
@@ -951,14 +765,14 @@ footer .bar {
     font-family: Montserrat;
     font-weight: 400;
     font-size: 15px;
-    letter-spacing: -1.5%;
+    letter-spacing: -0.015em;
     margin-top: 1rem;
     display: flex;
     align-items: center;
     line-height: 1.5rem;
 }
 
-.coord h1 {
+.coord h2 {
     align-items: center;
     display: flex;
     width: 10.8125rem;
@@ -968,7 +782,7 @@ footer .bar {
     font-weight: 700;
     font-size: 15px;
     line-height: 24px;
-    letter-spacing: -1.5%;
+    letter-spacing: -0.015em;
 }
 
 .coord {
@@ -1006,7 +820,7 @@ footer .bar {
     font-weight: 400;
     font-size: .9375rem;
     line-height: 1.5rem;
-    letter-spacing: -1.5%;
+    letter-spacing: -0.015em;
     width: 12.5rem;
     height: 5.9375rem;
     margin-top: 1rem;
@@ -1020,6 +834,7 @@ footer .bar {
 #numero {
     margin-bottom: .375rem;
 }
+
 .btn-footer {
     display: flex;
     flex-direction: column;
@@ -1029,7 +844,7 @@ footer .bar {
     font-family: Montserrat;
     font-weight: 500;
     font-size: .9375rem;
-    letter-spacing: -1.5%;
+    letter-spacing: -0.015em;
     text-align: center;
     vertical-align: middle;
     margin-left: 24.4375rem;
@@ -1069,7 +884,7 @@ footer .bar {
     font-weight: 400;
     font-size: .9375rem;
     line-height: 1.5rem;
-    letter-spacing: -1.5%;
+    letter-spacing: -0.015em;
     width: 18.8125rem;
     height: 1.5rem;
     margin-top: 1.5625rem;
@@ -1078,13 +893,12 @@ footer .bar {
 
 .reseaux-sociaux {
     width: 18.5625rem;
-height: 1.875rem;
-display: flex;
-align-items: center;
-margin-left: 55.25rem;
-margin-top: 2.375rem;
+    height: 1.875rem;
+    display: flex;
+    align-items: center;
+    margin-left: 55.25rem;
+    margin-top: 2.375rem;
 }
-
 
 .reseaux-sociaux p {
     color: white;
@@ -1117,4 +931,6 @@ margin-top: 2.375rem;
 
 #likedin {
     margin-left: .9375rem;
+}
+
 }

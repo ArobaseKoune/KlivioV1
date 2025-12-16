@@ -1,0 +1,492 @@
+@media screen and (max-width: 394px) {
+    * {
+        max-width: 393px;
+        margin: auto;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    /* NAV-BAR */
+
+    .contact {
+        display: none;
+    }
+    
+    .recherche, .boutons, .texte-nav {
+        display: none;
+    }
+
+    header{
+        width: 393px;
+        height: auto;
+    }
+
+    .nav-bar {
+        background-color: #152237;
+        width: 393px;
+        height: 5rem;
+        display: flex;
+    }
+
+    .logo-nav {
+        width: 5.25rem;
+        height: 1.9375rem;
+        margin-top: 1.5625rem;
+        margin-left: 1.6875rem;
+    }
+
+    .menu-burger {
+        width: 1.125rem;
+        height: .75rem;
+        margin-left: 14.1875rem;
+        margin-top: 2.125rem;
+    }
+
+    /* ACCEUIL */
+
+    .titres-prog h1 {
+        width: 22.5rem;
+        height: 7.3125rem;
+        margin-left: 1rem;
+        font-family: Montserrat;
+        font-weight: 800;
+        font-style: ExtraBold;
+        font-size: 2rem;
+        line-height: 100%;
+        letter-spacing: -0.015em;
+        text-align: center;
+        vertical-align: middle;
+        text-transform: uppercase;
+        padding-top: 2.8125rem;
+        color: #152237;
+    }
+    
+    .titres-prog h2 {
+        margin-top: 1.6875rem;
+        width: 22.5rem;
+        height: 4.5rem;
+        font-family: Montserrat;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 1.25rem;
+        line-height: 100%;
+        letter-spacing: -0.015em;
+        text-align: center;
+        vertical-align: middle;
+        text-transform: uppercase;
+        color: #152237;
+    }
+
+    .acceuil {
+        width: 24.5625rem;
+        height: 22.625rem;
+        background-image: linear-gradient(to right,rgba(68, 221, 138, 0.9), rgba(21, 183, 226, 0.7)), url('Asset/img/pexels-polina-zimmerma.png');
+        background-position: center;
+    }
+
+    .acceuil button {
+        width: 8.125rem;
+        height: 2.5rem;
+        border-radius: .375rem;
+        border: none;
+        background-color: #FFFFFF;
+        margin-left: 8.1875rem;
+        margin-top: 1.6875rem;
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: .9375rem;
+        line-height: 100%;
+        letter-spacing: -0.015em;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    /* Formation Populaire  */
+
+    .formation {
+        color: #152237;
+    }
+
+    .formations-populaires h2 {
+        width: 20.9375rem;
+        height: 5rem;
+        font-family: Montserrat;
+        font-weight: 800;
+        font-style: ExtraBold;
+        font-size: 1.875rem;
+        line-height: 2.5rem;
+        letter-spacing: -0.015em;
+        text-align: center;
+        padding-top: 1.25rem;
+        color: #152237;
+    }
+
+    .bloc-prix {
+        position: relative;
+        width: 19.0625rem;
+        height: 12.875rem;
+        background-color: #44DD8A;
+        margin-top: 2.125rem;
+        margin-bottom: 1.3125rem;
+    }
+
+    .price-tag {
+        width: 7.5rem;
+        height: 1.9737rem;
+        border-radius: 0.5rem;
+        background: #152237;
+        color: white;
+        font-weight: 700;
+        border: none;
+        width: 120;
+        border-radius: 93px;
+        box-shadow: 5px 4px 13.2px -1px rgba(0, 0, 0, 0.25);
+        font-size: 20px;
+        line-height: 20px;
+        letter-spacing: -0.015em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: .4375rem;
+        position: absolute;
+        left: 10.875rem;
+        margin-top: 11.875rem;
+        padding-left: .625rem;
+    }
+
+    .old-price {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 7px;
+        letter-spacing: -0.015em;
+        text-decoration: line-through;
+        width: 1.4375rem;
+        height: .4375rem;
+        white-space: nowrap;
+    }
+
+    .formations-populaires img {
+        width: 1.2581rem;
+        height: 1.2rem;
+
+    }
+
+    .mini-info-titre {
+        width: 300px;
+        height: 1.75rem;
+        margin: 0 0 0 3.6875rem;
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+        letter-spacing: -0.015em;
+    }
+
+    .nom-prenom {
+        width: 18.3125rem;
+        height: 1.5625rem;
+        margin: .6875rem 0 0 3.6875rem;
+    }
+
+    .etoile-formation img {
+        margin-top: 0.3125rem;
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+
+    .etoile-formation {
+        margin-left: 3.6875rem;
+        width: 120px;
+    }
+
+    .etoile-transparente {
+        opacity: 0.3;
+    }
+
+    .description-formation {
+        margin-left: 3.6875rem;
+        margin-top: .4875rem;
+        margin-bottom: 3.5625rem;
+    }
+
+    .voir-plus-formation {
+        background-color: #152237;
+        border-style: solid;
+        color: white;
+        border-radius: 0.375rem;
+        height: 2.5rem;
+        width: 14.0625rem;
+        border: none;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 0.9375rem;
+        margin-left: 5.625rem;
+        margin-top: 2.6875rem;
+        margin-bottom: 2.8125rem;
+        display: block; 
+    }
+
+    .formations-recentes {
+        width: 24.5625rem;
+        height: 120.4375rem;
+        background-color: #152237;
+    }
+
+    .formations-recentes * {
+    color: white;
+    }
+
+     /* Formation Récentes  */
+
+    .titre-formations2 {
+        width: 20.9375rem;
+        height: 5rem;
+        font-weight: 800;
+        font-style: ExtraBold;
+        font-size: 1.875rem;
+        line-height: 2.5rem;
+        letter-spacing: -0.015em;
+        text-align: center;
+        color: white;
+        padding-top: 2rem;
+    }
+
+    .bloc-prix2 {
+        position: relative;
+        width: 19.0625rem;
+        height: 12.875rem;
+        background-color: #44DD8A;
+        margin-top: 2.125rem;
+        margin-bottom: 1.3125rem;
+    }
+
+    .bloc-prix2 .price-tag {
+        background-color: white;
+        color: black;
+    }
+
+    .bloc-prix2 .old-price {
+        background-color: white;
+        color: black;
+    }
+
+    .voir-plus-formation2 {
+        background-color: white;
+        border-style: solid;
+        color: black;
+        border-radius: 0.375rem;
+        height: 2.5rem;
+        width: 14.0625rem;
+        border: none;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 0.9375rem;
+        margin-top: 3.375rem;
+        margin: 2rem auto 0;
+        display: block; 
+    }
+
+    /* Avis Clients */
+
+    .avis-clients {
+        width: auto;
+        height: 56.875rem;
+    }
+    
+    .titre-client {
+        padding-top: 1.75rem;
+        width: 18.0625rem;
+        height: 2.25rem;
+        font-family: Montserrat;
+        font-weight: 900;
+        font-style: Black;
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+        letter-spacing: -0.015em;
+        text-align: center;
+        text-transform: uppercase;
+        color: #152237;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .image-client {
+        display: flex;
+        width: 8.6875rem;
+        height: 8.6875rem;
+        border-radius: 6.25rem;
+        margin-top: 1.625rem;
+    }
+
+    .avis h3 {
+        width: 21.2783rem;
+        height: 2.25rem;
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+        letter-spacing: -0.015em;
+        text-align: center;
+        color: #152237;
+    }
+
+    .avis p {
+        margin-top: .8625rem;
+        width: 21.25rem;
+        height: 10.8125rem;
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: -0.015em;
+    }
+
+    .etoile-avis img {
+        width: 1.2893rem;
+        height: 1.2rem;
+    }
+    
+    .etoile-avis {
+        margin-top: .4375rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 1.2rem;
+        width: 7.438rem;
+    }
+
+    #avis2 {
+        margin-top: 3.3125rem;
+    }
+    
+    .container-description {
+        margin-top: 1.0625rem;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .description {
+        width: 24.5625rem;
+        height: 52rem;
+        background-color: #F5F5F5;
+    }
+    
+    .description h2 {
+        padding-top: 1.5625rem;
+        font-family: Montserrat;
+        font-weight: 900;
+        font-style: Black;
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+        letter-spacing: -1.5%;
+        text-align: center;
+        text-transform: uppercase;
+        width: 21.8125rem;
+        height: 5.8125rem;
+        color: #152237;
+    }
+    
+    .icones img {
+        display: flex;
+        width: 1.875rem;
+        height: 1.875rem;
+    }
+
+    .icones {
+        margin-top: 0;
+        margin-left: 1.75rem;
+        width: 1.875rem;
+        height: 21.875rem;
+    }
+
+    .icon-desc1 {
+        margin-bottom: 1.0625rem;
+    }
+    
+    .icon-desc2 {
+        margin-bottom: 2.75rem;
+    }
+
+    .icon-desc3 {
+        margin-bottom: 2.6875rem;
+    }
+
+    .icon-desc4 {
+        margin-bottom: 1.1875rem;
+    }
+
+    .icon-desc5 {
+        margin-bottom: 3.3125rem;
+    }
+
+    #téléchargement-pc {
+        display: none;
+    }
+
+    #échange-pc {
+        display: none;
+    }
+
+    #Suivi-pc {
+        display: none;
+    }
+
+    .col {
+        margin-top: 0;
+        width: 310px;
+        min-height: 18.4375rem;
+        margin-left: 1.0625rem;
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        letter-spacing: -1.5%;
+        display: flex;
+        flex-direction: column;
+        gap: 19px;
+    }
+
+    .col p {
+        width: 100%;
+    }
+
+    .img-contexte-pc {
+        display: none;
+    }
+
+    .img-contexte-mobile {
+        margin-top: 1.5625rem;
+        width: 20.4375rem;
+        height: 15.25rem;
+    }
+
+    .description2 {
+        width: 24.5625rem;
+        height: 63.75rem;
+        background-color: #44DD8A;
+    }
+
+    #titre-creation-pc {
+        display: none;
+    }
+
+    .img-contexte2-pc {
+        display: none;
+    }
+
+    .description2 h2 {
+        padding-top: 1.6875rem;
+        margin-bottom: .8125rem;
+        width: 22.875rem;
+        height: 4.9375rem;
+        color: #152237;
+        font-weight: 900;
+        font-style: Black;
+        font-size: 30px;
+        line-height: 36px;
+        letter-spacing: -1.5%;
+        text-align: center;
+    }
+
+}
