@@ -1,5 +1,5 @@
 @media screen and (max-width: 394px) {
-    * {
+    body {
         max-width: 393px;
         margin: auto;
         font-family: "Montserrat", sans-serif;
