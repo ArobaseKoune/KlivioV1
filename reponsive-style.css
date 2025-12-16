@@ -1,5 +1,8 @@
 @media screen and (max-width: 394px) {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4cc38bd698e84e94db65941632edd927a444b1be
     body {
         max-width: 393px;
         margin: 0;
@@ -445,7 +448,7 @@
         letter-spacing: -1.5%;
         display: flex;
         flex-direction: column;
-        gap: 19px;
+        gap: 5px;
     }
 
     .col p {
