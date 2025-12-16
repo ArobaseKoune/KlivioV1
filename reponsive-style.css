@@ -3,13 +3,11 @@
         max-width: 393px;
         margin: auto;
         font-family: "Montserrat", sans-serif;
+        
     }
+    
 
     /* NAV-BAR */
-
-    .contact {
-        display: none;
-    }
     
     .recherche, .boutons, .texte-nav {
         display: none;
@@ -357,6 +355,8 @@
     #avis2 {
         margin-top: 3.3125rem;
     }
+
+    /* Les avantages Klivio */
     
     .container-description {
         margin-top: 1.0625rem;
@@ -379,7 +379,7 @@
         font-style: Black;
         font-size: 1.875rem;
         line-height: 2.25rem;
-        letter-spacing: -1.5%;
+        letter-spacing: -0.015em;
         text-align: center;
         text-transform: uppercase;
         width: 21.8125rem;
@@ -441,7 +441,7 @@
         font-weight: 400;
         font-size: 1.25rem;
         line-height: 1.75rem;
-        letter-spacing: -1.5%;
+        letter-spacing: -0.015em;
         display: flex;
         flex-direction: column;
         gap: 19px;
@@ -460,6 +460,8 @@
         width: 20.4375rem;
         height: 15.25rem;
     }
+
+    /* Créez vos formations */
 
     .description2 {
         width: 24.5625rem;
@@ -485,8 +487,321 @@
         font-style: Black;
         font-size: 30px;
         line-height: 36px;
+        letter-spacing: -0.015em;
+        text-align: center;
+    }
+
+    .img-contexte2-mobile {
+        display: flex;
+        width: 20.25rem;
+        height: 15.1875rem;
+        margin-bottom: 1.375rem;
+    }
+    
+    .icon1 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .icon2 {
+        margin-top: 3.125rem;
+        margin-bottom: 0px;
+    }
+    
+    .icon3 {
+        margin-top: 2.6875rem;
+        margin-bottom: 0px;
+    }
+    
+    .icon4 {
+        margin-top: 3.125rem;
+        margin-bottom: 0px;
+    }
+    
+    .icon5 {
+        margin-top: 14.875rem;
+        margin-bottom: 0px;
+    }
+    
+    .icones2 {
+        margin-top: 0;
+        margin-left: 1.6875rem;
+        width: 1.875rem;
+        height: 32.75rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .container-description2 {
+        display: flex;
+    }
+
+    .col2 {
+        margin-top: 0;
+        width: 16.5625rem;
+        min-height: 18.4375rem;
+        margin-left: 1.0625rem;
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        letter-spacing: -0.015em;
+        display: flex;
+        flex-direction: column;
+        gap: 19px;
+    }
+
+    /* A propos de Klivio */
+
+    .about h2 {
+        margin-top: 1.6875rem;
+        margin-bottom: 1.25rem;
+        width: 20.1849rem;
+        height: 4.5rem;
+        font-family: Montserrat;
+        font-weight: 900;
+        font-style: Black;
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+        letter-spacing: -0.015em;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #text-pc {
+        display: none;
+    }
+
+    #text-mobile {
+        width: 22.1875rem;
+        height: 33.1875rem;
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 1.125rem;
+        line-height: 28px;
+        letter-spacing: -0.28px;
+        margin-bottom: 1.0625rem;
+    }
+
+    .img-side {
+        width: 24.5625rem;
+        height: 23.125rem;
+        background-color: #152237;
+        display: grid;
+        place-items: center;
+    }
+
+    .img-side img {
+        width: 13.375rem;
+        height: 4.8125rem;
+    }
+
+    /* Contactez nous */
+
+    .contact h2 {
+        padding-top: 1.8125rem;
+        margin-bottom: 1.9375rem;
+        width: 21.8125rem;
+        height: 2.25rem;
+        font-family: Montserrat;
+        font-weight: 900;
+        font-style: Black;
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+        letter-spacing: -1.5%;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .contrainer-formulaire {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nom {
+        display: flex;
+        width: 22.25rem;
+        height: 2.8125rem;
+        margin-bottom: 1.3125rem;
+        background-color: #152237;
+        border: none;
+    }
+
+    .nom::placeholder {
+        padding-left: 1.0625rem;
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: -1.5%;
+        color: white;
+    }
+    
+    .email {
+        width: 22.25rem;
+        height: 2.8125rem;
+        margin-bottom: 1.3125rem;
+        background-color: #152237;
+        border: none;
+    }
+
+    .email::placeholder {
+        padding-left: 1.0625rem;
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: -1.5%;
+        color: white;
+    }
+    
+    .message {
+        width: 22.25rem;
+        height: 11.5625rem;
+        background-color: #152237;
+        border: none;
+    }
+
+    .message::placeholder {
+        padding-top: .5625rem;
+        padding-left: 1.0625rem;
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: -1.5%;
+        color: white;
+    }
+
+    .contact button {
+        margin-top: 1.375rem;
+        margin-bottom: 2.375rem;
+        width: 22.25rem;
+        height: 2.8125rem;
+        border-radius: .375rem;
+        border: none;
+        background-color: #44DD8A;
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 100%;
+        letter-spacing: -1.5%;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    /* Footer */
+    
+    .reseaux-sociaux, #copyright, .btn-footer {
+        display: none;
+    }
+
+    .bar {
+        width: 24.5625rem;
+        height: 1.125rem;
+        background: linear-gradient(90.01deg, #44DD8A 2.38%, #18A0FB 100%);
+    }
+
+    .top {
+        background-color: #152237;
+        width: 24.5625rem;
+    }
+
+    .logo-footer {
+        display: flex;
+        width: 15.1875rem;
+        height: 5.4375rem;
+        padding-top: 2.8125rem;
+    }
+
+    .legal {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 230px;
+        height: 8.4375rem;
+        color: white;
+    }
+    
+    .legal h2 {
+        margin-top: 2.8125rem;
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 24px;
         letter-spacing: -1.5%;
         text-align: center;
     }
 
+    .legal p {
+        margin-top: 1rem;
+        width: 10.8125rem;
+        height: 5.9375rem;
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: -1.5%;
+        text-align: center;
+    }
+    
+    .coord {
+        color: white;
+    }
+    
+    .container-coord {
+        display: flex;
+        flex-direction: row;
+        gap: 0;
+        width: 11.8125rem;
+        height: 9.3125rem;
+        margin: 0;
+
+    }
+
+    .coord h2 {
+        margin-top: 2rem;
+        width: 10.8125rem;
+        height: 1.5rem;
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: -1.5%;
+        text-align: center;
+    }
+
+    .icones-coord {
+        margin-left: 6.4375rem;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.3125rem;
+    }
+
+    .coord-info {
+        margin-left: 1rem;
+        margin-top: 1.3125rem;
+    }
+
+    .coord-info p {
+        width: 180px;
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: -0.015em;
+    }
+
+    #epingle {
+        margin-bottom: 1.4375rem;
+    }
+
+    #telephone {
+        margin-bottom: .5625rem;
+    }
+
+    #contact {
+        margin-top: 7px;
+    }
 }
