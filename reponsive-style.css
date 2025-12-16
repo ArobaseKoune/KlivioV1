@@ -1,10 +1,9 @@
 @media screen and (max-width: 394px) {
-
     * {
-    margin: 0;
-    padding: 0;
-    font-family: "Montserrat", sans-serif;
-}g
+        max-width: 393px;
+        margin: auto;
+        font-family: "Montserrat", sans-serif;
+    }
 
     /* NAV-BAR */
 
